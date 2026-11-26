@@ -7,6 +7,7 @@ export default function ServicesDirectory() {
     selectedLocation,
     setIsLocationModalOpen,
     selectedService,
+    services,
     handleSelectService,
     selectedPackage,
     setCurrentPage,
@@ -23,7 +24,7 @@ export default function ServicesDirectory() {
   const [instantDispatchOnly, setInstantDispatchOnly] = useState(false);
 
   // Filter services
-  const filteredServices = SERVICES.filter(service => {
+  const filteredServices = services.filter(service => {
     const matchesCategory = activeCategory === 'all' || service.category === activeCategory;
     const matchesSearch = service.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
       service.description.toLowerCase().includes(searchQuery.toLowerCase()) ||
@@ -51,7 +52,7 @@ export default function ServicesDirectory() {
                 </span>
               </div>
               <h1 className="text-3xl sm:text-4xl text-primary font-extrabold tracking-tight">
-                Services in {selectedLocation.name}, Bengaluru
+                Services in {selectedLocation.name}, Kolkata
               </h1>
             </div>
 

@@ -1,10 +1,41 @@
-export const BENGALURU_LOCATIONS = [
-  { id: 'indiranagar', name: 'Indiranagar', subtext: '100ft Rd, Indiranagar', zone: 'East Zone', activePros: 38 },
-  { id: 'koramangala', name: 'Koramangala', subtext: '5th Block, Koramangala', zone: 'South-East Zone', activePros: 45 },
-  { id: 'hsr', name: 'HSR Layout', subtext: 'Sector 3, HSR Layout', zone: 'South Zone', activePros: 29 },
-  { id: 'whitefield', name: 'Whitefield', subtext: 'ITPB Main Rd, Whitefield', zone: 'East Zone', activePros: 34 },
-  { id: 'jayanagar', name: 'Jayanagar', subtext: '4th Block, Jayanagar', zone: 'South Zone', activePros: 31 },
-  { id: 'malleshwaram', name: 'Malleshwaram', subtext: 'Sampige Road, Malleshwaram', zone: 'North Zone', activePros: 22 },
+
+export const KOLKATA_LOCATIONS = [
+  {
+    id: 'salt-lake',
+    name: 'Salt Lake',
+    zone: 'East Kolkata',
+    activePros: 24
+  },
+  {
+    id: 'new-town',
+    name: 'New Town',
+    zone: 'East Kolkata',
+    activePros: 18
+  },
+  {
+    id: 'park-street',
+    name: 'Park Street',
+    zone: 'Central Kolkata',
+    activePros: 21
+  },
+  {
+    id: 'behala',
+    name: 'Behala',
+    zone: 'South-West Kolkata',
+    activePros: 15
+  },
+  {
+    id: 'garia',
+    name: 'Garia',
+    zone: 'South Kolkata',
+    activePros: 17
+  },
+  {
+    id: 'howrah',
+    name: 'Howrah',
+    zone: 'Howrah',
+    activePros: 12
+  }
 ];
 
 export const CATEGORIES = [
@@ -294,7 +325,7 @@ export const SAMPLE_BOOKINGS = [
     statusLabel: 'Technician En Route',
     eta: '22 mins',
     slotTime: 'Today, 11:30 AM',
-    address: 'Flat 402, Green Glen Layout, 100ft Rd, Indiranagar, Bengaluru',
+    address: 'Flat 402, Green Glen Layout, 100ft Rd, Indiranagar, Kolkata',
     amount: 2499,
     advancePaid: 1048,
     balanceDue: 1572,
@@ -310,7 +341,7 @@ export const SAMPLE_BOOKINGS = [
     statusLabel: 'Completed',
     eta: null,
     slotTime: '18 Nov 2026, 2:00 PM',
-    address: 'Flat 402, Green Glen Layout, 100ft Rd, Indiranagar, Bengaluru',
+    address: 'Flat 402, Green Glen Layout, 100ft Rd, Indiranagar, Kolkata',
     amount: 599,
     advancePaid: 240,
     balanceDue: 0,

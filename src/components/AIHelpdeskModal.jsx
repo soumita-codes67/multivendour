@@ -94,7 +94,7 @@ export default function AIHelpdeskModal() {
           {analyzing && (
             <div className="p-6 rounded-xl bg-surface-container-low flex flex-col items-center justify-center gap-3 text-center">
               <div className="w-8 h-8 rounded-full border-3 border-primary border-t-transparent animate-spin"></div>
-              <p className="text-xs font-semibold text-primary">Analyzing symptoms and finding nearest certified Bengaluru pro...</p>
+              <p className="text-xs font-semibold text-primary">Analyzing symptoms and finding nearest certified Kolkata pro...</p>
             </div>
           )}
 

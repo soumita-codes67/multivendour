@@ -19,7 +19,7 @@ A high-performance React application built using **Vite**, **Tailwind CSS**, and
 ## 📱 Pages & Features
 
 ### 1. **Services Directory (`fixzo_services_directory_1 & 2`)**
-- Locality selector for Bengaluru (Indiranagar, Koramangala, HSR Layout, Whitefield, Jayanagar, Malleshwaram).
+- Locality selector for Kolkata (Indiranagar, Koramangala, HSR Layout, Whitefield, Jayanagar, Malleshwaram).
 - Live search bar with instant query filtering and clear button.
 - Quick category chips: *Cleaning & Hygiene*, *Electrical*, *Plumbing*, *AC & Appliances*, *Painting & Wall Care*.
 - Rich service cards with ratings, review counts, checklists, pricing, and "Select Service" toggles.
@@ -36,7 +36,7 @@ A high-performance React application built using **Vite**, **Tailwind CSS**, and
 ### 3. **Instant Checkout (`fixzo_modern_instant_checkout & slot_confirmation`)**
 - 3-step progress bar (Step 1: Service → Step 2: Schedule → Step 3: Payment).
 - Escrow protection & 256-Bit SSL security badge.
-- Order recap with editable doorstep address in Bengaluru.
+- Order recap with editable doorstep address in Kolkata.
 - 40% Refundable Domestic Advance breakdown (40% advance held in escrow, 60% balance payable only after 100% customer satisfaction).
 - Payment methods: UPI (Google Pay, PhonePe, Paytm, Custom UPI ID), Credit/Debit Cards, Fixzo Wallet balance, and Pay After Service.
 - Interactive promo coupon code support (`FIRSTFIX`, `FESTIVE300`).

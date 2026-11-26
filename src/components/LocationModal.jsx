@@ -1,6 +1,6 @@
 import React from 'react';
 import { useApp } from '../context/AppContext';
-import { BENGALURU_LOCATIONS } from '../data/mockData';
+import { KOLKATA_LOCATIONS } from '../data/mockData';
 
 export default function LocationModal() {
   const { isLocationModalOpen, setIsLocationModalOpen, selectedLocation, setSelectedLocation } = useApp();
@@ -15,7 +15,7 @@ export default function LocationModal() {
           <div className="flex items-center gap-2">
             <span className="material-symbols-outlined text-primary text-xl">location_city</span>
             <div>
-              <h3 className="font-bold text-base text-primary">Select Bengaluru Neighborhood</h3>
+              <h3 className="font-bold text-base text-primary">Select Kolkata Neighborhood</h3>
               <p className="text-xs text-on-surface-variant">Guaranteed arrival times tuned for your locality</p>
             </div>
           </div>
@@ -29,7 +29,7 @@ export default function LocationModal() {
 
         {/* Locality list */}
         <div className="p-4 space-y-2 max-h-96 overflow-y-auto">
-          {BENGALURU_LOCATIONS.map((loc) => {
+          {KOLKATA_LOCATIONS.map((loc) => {
             const isSelected = selectedLocation.id === loc.id;
             return (
               <button
@@ -67,7 +67,7 @@ export default function LocationModal() {
 
         {/* Footer */}
         <div className="p-4 bg-surface-container-low border-t border-neutral-100 flex items-center justify-between text-xs text-on-surface-variant">
-          <span>Expanding to North Bengaluru soon!</span>
+          <span>Expanding to North Kolkata soon!</span>
           <span className="font-semibold text-primary">Fixzo Hyperlocal Network</span>
         </div>
       </div>

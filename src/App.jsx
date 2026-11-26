@@ -11,7 +11,7 @@ import SlotConfirmation from './pages/SlotConfirmation';
 import PartnerOnboarding from './pages/PartnerOnboarding';
 import MyBookings from './pages/MyBookings';
 import WalletOffers from './pages/WalletOffers';
-
+import Login from './pages/Login';
 export default function App() {
   const { currentPage } = useApp();
 
@@ -23,6 +23,7 @@ export default function App() {
       {/* Main Content Area (padding-top accounts for fixed 116px header) */}
       <main className="flex-1 w-full pt-[116px] min-h-[calc(100vh-116px)]">
         {currentPage === 'directory' && <ServicesDirectory />}
+        {currentPage === 'login' && <Login />}
         {currentPage === 'profile' && <ProProfileBooking />}
         {currentPage === 'checkout' && <InstantCheckout />}
         {currentPage === 'confirmation' && <SlotConfirmation />}

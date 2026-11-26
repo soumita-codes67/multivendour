@@ -19,12 +19,12 @@ export default function Footer() {
               <span className="font-headline-md text-2xl font-extrabold tracking-tight text-white">Fixzo</span>
             </div>
             <p className="text-sm text-neutral-300 max-w-sm leading-relaxed">
-              Hyper-local on-demand home services engineered for Bengaluru neighborhoods. Aadhaar-verified technicians, upfront transparent pricing, and 30-day rework satisfaction guarantee.
+              Hyper-local on-demand home services engineered for Kolkata neighborhoods. Aadhaar-verified technicians, upfront transparent pricing, and 30-day rework satisfaction guarantee.
             </p>
             <div className="flex items-center gap-3 pt-2">
               <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-900/60 border border-emerald-700/50 text-xs font-semibold text-emerald-300">
                 <span className="w-1.5 h-1.5 rounded-full bg-emerald-400"></span>
-                Bengaluru Licensed Platform
+                Kolkata Licensed Platform
               </span>
               <span className="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-emerald-900/60 border border-emerald-700/50 text-xs font-semibold text-emerald-300">
                 ★ 4.9 Rating (48k+ Reviews)

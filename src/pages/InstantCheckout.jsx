@@ -50,13 +50,11 @@ export default function InstantCheckout() {
     }
   };
 
-  const handlePayAndConfirm = () => {
-    setIsProcessing(true);
-    setTimeout(() => {
-      setIsProcessing(false);
-      confirmBooking(paymentMethod);
-    }, 1200);
-  };
+const handlePayAndConfirm = async () => {
+  setIsProcessing(true);
+  await confirmBooking(paymentMethod);
+  setIsProcessing(false);
+};
 
   return (
     <div className="w-full">
